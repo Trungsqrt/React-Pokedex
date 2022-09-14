@@ -1,5 +1,5 @@
 .collection-container {
-   color: #3d405b;
+   color: #3854af;
    margin-top: 2rem;
    font-weight: 600;
    display: flex;
@@ -29,12 +29,12 @@
 }
 .detail-name {
    font-size: 1.5rem;
-   color: #3d405b;
+   color: #3854af;
    font-weight: 700;
 }
 .detail-info {
    background-color: #f2cc8f;
-   background-image: linear-gradient(0deg, #f2cc8f 0%, #f8f3d9 100%);
+   background-image: linear-gradient(0deg, #f1c946 0%, #f8f3d9 100%);
    width: 100%;
    display: flex;
    justify-content: center;
@@ -71,6 +71,8 @@
    border-radius: 12px;
    justify-content: center;
    align-items: center;
+   min-width: 300px;
+   min-height: 300px;
 }
 
 .pokemon-list-detailed {
@@ -93,8 +95,8 @@
 
 button {
    cursor: pointer;
-   background-color: #81b29a;
-   color: #3d405b;
+   background-color: #f7c00b;
+   color: #3854af;
    padding: 0.5rem;
    border-radius: 12px;
    font-size: 1.5rem;
@@ -103,10 +105,16 @@ button {
 }
 button:hover {
    cursor: pointer;
-   background-color: #61997e;
+   background-color: #d3b44d;
    color: #3d405b;
    padding: 0.5rem;
    border-radius: 12px;
    font-size: 1.5rem;
    border: none;
+}
+
+.img {
+   width: 150px;
+   height: 150px;
+   object-fit: contain;
 }

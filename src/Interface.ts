@@ -12,4 +12,16 @@ export interface Pokemon {
   }
 }
 
+export interface Detail {
+  id: number,
+  isOpened: boolean
+}
+
+export interface pkDetail extends Pokemon{
+  abilities?: {
+    ability: string
+    name: string
+  }[]
+}
+
 
